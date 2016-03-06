@@ -157,7 +157,7 @@ a:focus {
         padding: 200px 0;
         text-align: center;
         color: #fff;
-        background: url(../img/pexels-photo.jpg) no-repeat center center;
+       /* background: url(../img/pexels-photo.jpg) no-repeat center center; */
         background-color: #000;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -265,7 +265,7 @@ a:focus {
 }
 
 #contact-section {
-    background: url(../img/00Dark30_Metal.png) no-repeat center center;
+    /* background: url(../img/00Dark30_Metal.png) no-repeat center center; */
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
