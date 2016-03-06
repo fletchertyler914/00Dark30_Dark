@@ -152,9 +152,9 @@ a:focus {
 
 .intro {
     display: table;
-    width: auto;
+    width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 200px 0;
     text-align: center;
     color: #fff;8
     background: url(../img/pexels-photo.jpg) no-repeat center center scroll;
