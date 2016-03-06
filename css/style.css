@@ -367,21 +367,6 @@ body {
 
 @media(min-width:767px) {
 
-    .intro {
-        display: table;
-        width: 100%;
-        height: auto;
-        padding: 100px 0;
-        text-align: center;
-        color: #fff;
-        background: url(../img/pexels-photo.jpg) no-repeat center right scroll;
-        background-color: #000;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        background-size: contain;
-        -o-background-size: contain;
-    }
-
     .intro .intro-body .brand-heading {
         font-size: 100px;
        -webkit-stroke-width: 5.3px;
