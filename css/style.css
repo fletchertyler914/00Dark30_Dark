@@ -157,12 +157,12 @@ a:focus {
         padding: 200px 0;
         text-align: center;
         color: #fff;
-        background: url(../img/pexels-photo.jpg) no-repeat center right scroll;
+        background: url(../img/pexels-photo.jpg) no-repeat center right;
         background-color: #000;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        background-size: contain;
-        -o-background-size: contain;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
     }
 
 .intro .intro-body {
