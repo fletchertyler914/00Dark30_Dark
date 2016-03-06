@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com) modified by 00:Dark30
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 .cinzel{
     font-family: 'Cinzel', serif;
     font-weight: 400
@@ -39,7 +34,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Cinzel', serif; /*Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Cinzel', serif; 
     color: #fff;
     background-color: #000;
 }
@@ -68,13 +63,6 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:768px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-}
 
 a {
     color: grey;
@@ -141,29 +129,13 @@ a:focus {
 .navbar-custom .nav li a:hover {
     outline: 0;
     color: rgba(255,255,255,.8);
-    background-color: transparent;
-    -webkit-stroke-width: 5.3px;
-   -webkit-stroke-color: #FFFFFF;
-   -webkit-fill-color: #FFFFFF;
-   text-shadow: 1px 0px 20px white;
-   -webkit-transition: width 0.3s; /*Safari & Chrome*/
-   transition: width 0.3s;
-   -moz-transition: width 0.3s; /* Firefox 4 */
-   -o-transition: width 0.3s; /* Opera */
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
     background-color: transparent;
-    -webkit-stroke-width: 5.3px;
-   -webkit-stroke-color: #FFFFFF;
-   -webkit-fill-color: #FFFFFF;
-   text-shadow: 1px 0px 20px white;
-   -webkit-transition: width 0.3s; /*Safari & Chrome*/
-   transition: width 0.3s;
-   -moz-transition: width 0.3s; /* Firefox 4 */
-   -o-transition: width 0.3s; /* Opera */
+   
 }
 
 .navbar-custom .nav li.active {
@@ -178,32 +150,14 @@ a:focus {
     color: #fff;
 }
 
-@media(min-width:768px) {
-    .navbar-custom {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
-    }
-}
-
 .intro {
     display: table;
     width: auto;
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/pexels-photo.jpg) no-repeat center center scroll;
+    color: #fff;8
+    /*background: url(../img/pexels-photo.jpg) no-repeat center center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -230,29 +184,6 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-}
-
-@media(min-width:768px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-       -webkit-stroke-width: 5.3px;
-       -webkit-stroke-color: #FFF;
-       -webkit-fill-color: #FFF;
-       text-shadow: 1px 0px 20px white;
-       -webkit-transition: width 0.3s; /*Safari & Chrome*/
-       transition: width 0.3s;
-       -moz-transition: width 0.3s; /* Firefox 4 */
-       -o-transition: width 0.3s; /* Opera */
-        }
-
-    .intro .intro-body .intro-text {
-        font-size: 26px;
-        }
 }
 
 .btn-circle {
@@ -333,18 +264,6 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/city.jpg) no-repeat center top;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 /*#contact-section {
     background: url(../img/00Dark30_Metal.png) no-repeat center center;
     background-color: #000;
@@ -354,51 +273,23 @@ a:focus {
     -o-background-size: cover;
 }*/
 
-#map {
+.download-section {
     width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    padding: 200px 0;
+    color: #fff;
+    background: url(../img/city.jpg) no-repeat center top;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-.download-section {
-    padding: 200px 0;
-    
-}
 
 .download-section p, .download-section a {
     font-weight: bolder;
     background-color:rgba(0, 0, 0, 0.7);
     
-}
-
-@media(min-width:767px) {
-    
-    .intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/pexels-photo.jpg) no-repeat center right scroll;
-    background-color: #000;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
-}
-    .content-section {
-        padding-top: 250px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
 }
 
 .btn {
@@ -429,23 +320,6 @@ ul.banner-social-buttons {
     margin-top: 0;
 }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
-}
 
 footer {
     padding: 50px 0;
@@ -483,5 +357,89 @@ body {
 .download-section {
     padding: 200px 0;
     
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(min-width:767px) {
+
+    .intro {
+        display: table;
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+        text-align: center;
+        color: #fff;
+        /*background: url(../img/pexels-photo.jpg) no-repeat center right scroll;*/
+        background-color: #000;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        background-size: contain;
+        -o-background-size: contain;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+       -webkit-stroke-width: 5.3px;
+       -webkit-stroke-color: #FFF;
+       -webkit-fill-color: #FFF;
+       text-shadow: 1px 0px 20px white;
+       -webkit-transition: width 0.3s; /*Safari & Chrome*/
+       transition: width 0.3s;
+       -moz-transition: width 0.3s; /* Firefox 4 */
+       -o-transition: width 0.3s; /* Opera */
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+
+    .content-section {
+        padding-top: 250px;
+    }
+
+    .download-section {
+        padding: 100px 0;
+    }
+
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+
+
+
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
 }
 
