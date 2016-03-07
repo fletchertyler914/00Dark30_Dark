@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/mobile/i.test(navigator.userAgent) && !location.hash &&
+setTimeout(function () {   window.scrollTo(0, 1); }, 1000);
+
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
