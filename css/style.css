@@ -93,7 +93,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: 'Cinzel', serif;/*Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Cinzel', serif;
     background-color: #000;
 }
 
@@ -150,20 +150,20 @@ a:focus {
     color: #fff;
 }
 
-    .intro {
-        display: table;
-        width: 100%;
-        height: auto;
-        padding: 200px 0;
-        text-align: center;
-        color: #fff;
-       /* background: url(../img/pexels-photo.jpg) no-repeat center center; */
-        background-color: #000;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-    }
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/pexels-photo.jpg) no-repeat center center; 
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 .intro .intro-body {
     display: table-cell;
@@ -365,7 +365,7 @@ body {
     }
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
@@ -419,8 +419,12 @@ body {
 @media(max-width:767px) {
     ul.banner-social-buttons li {
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         padding: 0;
+    }
+    
+    ul.banner-social-buttons li a{
+        width: 90%;
     }
 
     ul.banner-social-buttons li:last-child {
