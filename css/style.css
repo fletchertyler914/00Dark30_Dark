@@ -461,7 +461,15 @@ body {
     
     .download-button{
         width: 100%;
+        font-size: 12px;
+        background-color: yellow;
     }
+    
+    .col-lg-8 col-lg-offset-2{
+        width: 100%;
+        background-color: aqua;
+    }
+    
 
 }
 
