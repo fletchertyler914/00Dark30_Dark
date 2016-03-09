@@ -443,14 +443,25 @@ body {
         width: 90%;
     }
     
+
     .download-button{
         width: 90%;
     }
+
+
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
     
+
+}
+
+@media(max-width:680px) {
+    
+    .download-button{
+        width: 50%;
+    }
 
 }
 
